@@ -2,6 +2,7 @@
 // import MainRouter from "./Components/MainRouter/MainRouter";
 // import TabPractice from "./Components/TabPractice/TabPractice";
 import { Typography } from "@material-ui/core";
+import AccordionPractice from "./Components/AccordionPractice/AccordionPractice";
 // import { createContext, useState } from "react";
 // import SnackBarLeader from "./Components/SnackBarPractice/SnackBarLeader";
 // import SnackBarPractice from "./Components/SnackBarPractice/SnackBarPractice";
@@ -34,7 +35,7 @@ import "./styles.css";
 const App = () => {
   return (
     <>
-      <Typography>This is Accordion Priactice Component</Typography>
+      <AccordionPractice />
     </>
   );
 };
