@@ -42,7 +42,6 @@ const AccordionPractice = () => {
   const [expended, setExpended] = useState(false);
 
   const handleChange = (id) => (event, isExpanded) => {
-    console.log(isExpanded);
     setExpended(isExpanded ? id : false);
   };
 
