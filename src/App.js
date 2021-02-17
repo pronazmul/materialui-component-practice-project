@@ -3,6 +3,7 @@
 // import TabPractice from "./Components/TabPractice/TabPractice";
 // import AccordionPractice from "./Components/AccordionPractice/AccordionPractice";
 import AppBarPractice from "./Components/AppBarPractice/AppBarPractice";
+import MenuPracitce from "./Components/MenuPracitce/MenuPracitce";
 // import { createContext, useState } from "react";
 // import SnackBarLeader from "./Components/SnackBarPractice/SnackBarLeader";
 // import SnackBarPractice from "./Components/SnackBarPractice/SnackBarPractice";
@@ -36,7 +37,8 @@ const App = () => {
   return (
     <>
       {/* <AccordionPractice /> */}
-      <AppBarPractice />
+      {/* <AppBarPractice /> */}
+      <MenuPracitce />
     </>
   );
 };
