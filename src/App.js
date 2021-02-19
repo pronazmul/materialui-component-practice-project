@@ -2,9 +2,9 @@
 // import MainRouter from "./Components/MainRouter/MainRouter";
 // import TabPractice from "./Components/TabPractice/TabPractice";
 // import AccordionPractice from "./Components/AccordionPractice/AccordionPractice";
-import AppBarPractice from "./Components/AppBarPractice/AppBarPractice";
-import CustomStylingWithStyle from "./Components/CustomStylingWithStyle/CustomStylingWithStyle";
-import MenuPracitce from "./Components/MenuPracitce/MenuPracitce";
+// import AppBarPractice from "./Components/AppBarPractice/AppBarPractice";
+// import CustomStylingWithStyle from "./Components/CustomStylingWithStyle/CustomStylingWithStyle";
+// import MenuPracitce from "./Components/MenuPracitce/MenuPracitce";
 // import { createContext, useState } from "react";
 // import SnackBarLeader from "./Components/SnackBarPractice/SnackBarLeader";
 // import SnackBarPractice from "./Components/SnackBarPractice/SnackBarPractice";
@@ -40,7 +40,7 @@ const App = () => {
       {/* <AccordionPractice /> */}
       {/* <AppBarPractice /> */}
       {/* <MenuPracitce /> */}
-      <CustomStylingWithStyle />
+      {/* <CustomStylingWithStyle /> */}
     </>
   );
 };
