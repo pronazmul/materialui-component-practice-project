@@ -1,15 +1,23 @@
-import { withStyles } from "@material-ui/core";
+import { AppBar, makeStyles, Toolbar, Typography } from "@material-ui/core";
 
-const style = {
-  div: {
-    height: 500,
-    width: 500,
-    border: "2px solid #ccc"
+const useStyle = makeStyles((theme) => ({
+  overrides: {
+    MuiAppBar: {
+      root: {
+        colorPrimary: "red"
+      }
+    }
   }
-};
+}));
 
-const CustomStylingWithStyle = (props) => {
-  const { classes } = props;
-  return <div className={classes.div}>WElcome</div>;
+const CustomStylingWithStyle = () => {
+  const classes = useStyle();
+  return (
+    <AppBar className={classes.MuiAppBar}>
+      <Toolbar>
+        <Typography variant="h5">Hello Programmer</Typography>
+      </Toolbar>
+    </AppBar>
+  );
 };
-export default withStyles(style)(CustomStylingWithStyle);
+export default CustomStylingWithStyle;
