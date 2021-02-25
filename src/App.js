@@ -4,6 +4,7 @@
 // import AccordionPractice from "./Components/AccordionPractice/AccordionPractice";
 // import AppBarPractice from "./Components/AppBarPractice/AppBarPractice";
 import CustomStylingWithStyle from "./Components/CustomStylingWithStyle/CustomStylingWithStyle";
+import FromikPractice from "./Components/FromikPractice/FromikPractice";
 // import MenuPracitce from "./Components/MenuPracitce/MenuPracitce";
 // import { createContext, useState } from "react";
 // import SnackBarLeader from "./Components/SnackBarPractice/SnackBarLeader";
@@ -40,7 +41,11 @@ const App = () => {
       {/* <AccordionPractice /> */}
       {/* <AppBarPractice /> */}
       {/* <MenuPracitce /> */}
-      <CustomStylingWithStyle />
+      {/* <CustomStylingWithStyle /> */}
+
+      <FromikPractice />
+
+      {/* <YupValidation /> */}
     </>
   );
 };
