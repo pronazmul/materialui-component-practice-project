@@ -3,7 +3,7 @@ import * as yup from "yup";
 const SUPPORTED_FORMATS = ["image/jpeg", "image/jpg", "image/png", "image/gif"];
 const FILE_SIZE = 160 * 1024;
 
-const YupValidation = yup.object().shape({
+const YupValidation = {
   name: yup
     .string()
     .min(2, "Too Short !")
@@ -40,6 +40,6 @@ const YupValidation = yup.object().shape({
       "Unsupported Format",
       (value) => value && SUPPORTED_FORMATS.includes(value.type)
     )
-});
+};
 
 export default YupValidation;
