@@ -1,4 +1,4 @@
-# PokeMon Material ui Layout
+# PokeMon Project Material UI
 
 ## Features
 
